@@ -1,4 +1,5 @@
-Logging AnalyticsのOCI Audit Logsに関する問題
+# Logging AnalyticsでOCI Audit Logsを管理・分析してみよう！
+
 # 問題1
 Logging Analyticsにはクラスタ分析というログを4つのカテゴリに自動で分類してくれる機能があり、障がいやセキュリティに関連する問題が発生した際に重要なログをすぐに特定可能です。
 OCI Audit Logsには事前に用意されているOCI 監査分析ダッシュボードありますが、クラスタ分析の結果がないので新たに追加する必要があります。
