@@ -23,6 +23,7 @@ Oracle Cloud Observability and Managementのソリューションを活用し、
   - 失敗時に再試行：チェック
 
 # 解答
+![クラスタ分析と円グラフ](images/APM1.png)
 
 
 
