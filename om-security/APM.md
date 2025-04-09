@@ -26,11 +26,6 @@ Oracle Cloud Observability and ManagementのAPMの機能を活用し、外形監
 - APM → 可用性モニタリング → リソースを選択
   - 画面起動後、対象チームのAPMドメインを選択 → OCI_Quest_XX (XXはチーム番号)
 
-![モニターの作成](om-security/images/APM-monitor/APM_Monitor1.png "モニターの作成")
-
-
-!(om-security/images/APM-monitor/APM_Monitor1.png)
-
-
+![モニターの作成](images/APM-monitor/APM_Monitor1.png "モニターの作成")
 
 
