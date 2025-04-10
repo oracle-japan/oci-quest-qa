@@ -117,14 +117,14 @@
 
 5. ユーザ毎のログイン失敗を確認できる (ヒストグラム付きレコード)
    フィールドのIAM EventIDからsso.session.create.successにチェックを入れて適用をクリックします。
-   ![ダッシュボードの作成](images/LA-Audit/LA-Audit16.png)
+   ![ダッシュボードの作成](images/LA-Audit/LA-Audit25.png)
    
    グループ化基準にUser Nameをドラック&ドロップします。
-   ![ダッシュボードの作成](images/LA-Audit/LA-Audit21.png)
+   ![ダッシュボードの作成](images/LA-Audit/LA-Audit26.png)
 
    ログインされた位置情報が表示されるので、作成したダッシュボードに追加します。<br>
    アクション→名前を付けて保存をクリックします。
-   ![ダッシュボードの作成](images/LA-Audit/LA-Audit24.png)
+   ![ダッシュボードの作成](images/LA-Audit/LA-Audit27.png)
    
    要件1と同様に以下の項目を設定し、「保存」をクリックするとダッシュボードに追加されます。
     - 検索名：任意の検索名
@@ -132,8 +132,8 @@
     - 既存のダッシュボードに追加
     - ダッシュボード：作成したダッシュボードを選択
     
-   ![ダッシュボードの作成](images/LA-Audit/LA-Audit22.png)
-   ![ダッシュボードの作成](images/LA-Audit/LA-Audit23.png)
+   ![ダッシュボードの作成](images/LA-Audit/LA-Audit28.png)
+   ![ダッシュボードの作成](images/LA-Audit/LA-Audit29.png)
 
 ### アラート要件
 1. ログイン失敗が発生したらアラートをメールアドレスに通知する
