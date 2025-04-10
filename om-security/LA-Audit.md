@@ -95,16 +95,16 @@
    
    
 
-5. ユーザ毎のログイン成功を確認できる (ヒストグラム付きレコード)<br>
+4. ユーザ毎のログイン成功を確認できる (ヒストグラム付きレコード)<br>
    フィールドのIAM EventIDからsso.session.create.successにチェックを入れて適用をクリックします。
    ![ダッシュボードの作成](images/LA-Audit/LA-Audit16.png)
    
    グループ化基準にUser Nameをドラック&ドロップします。
-   ![ダッシュボードの作成](images/LA-Audit/LA-Audit11.png)
+   ![ダッシュボードの作成](images/LA-Audit/LA-Audit21.png)
 
    ログインされた位置情報が表示されるので、作成したダッシュボードに追加します。<br>
    アクション→名前を付けて保存をクリックします。
-   ![ダッシュボードの作成](images/LA-Audit/LA-Audit18.png)
+   ![ダッシュボードの作成](images/LA-Audit/LA-Audit22.png)
    
    要件1と同様に以下の項目を設定し、「保存」をクリックするとダッシュボードに追加されます。
     - 検索名：任意の検索名
@@ -113,7 +113,7 @@
     - ダッシュボード：作成したダッシュボードを選択
     
    ![ダッシュボードの作成](images/LA-Audit/LA-Audit19.png)
-   ![ダッシュボードの作成](images/LA-Audit/LA-Audit20.png)
+   ![ダッシュボードの作成](images/LA-Audit/LA-Audit23.png)
 
 7. ユーザ毎のログイン失敗を確認できる (ヒストグラム付きレコード)
 
