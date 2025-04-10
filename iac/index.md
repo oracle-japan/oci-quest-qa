@@ -19,7 +19,7 @@
 
 ### 手動で対応する場合
 
-OCIコンソール画面左上のハンバーガーメニューから、「コンピュート」→「インスタンス」を選択します。
+OCI コンソール画面左上のハンバーガーメニューから、「コンピュート」→「インスタンス」を選択します。
 
 ![manual-replicate-1](./images/manual-replicate-1.png)
 
@@ -51,7 +51,7 @@ OCIコンソール画面左上のハンバーガーメニューから、「コ�
 
 ![manual-replicate-8](./images/manual-replicate-8.png)
 
-下にスクロールすると「SSHキーの追加」の項目がありますが、作成したカスタムイメージに既に含まれているので「SSHキーなし」を選択します。
+下にスクロールすると「SSH キーの追加」の項目がありますが、作成したカスタムイメージに既に含まれているので「SSH キーなし」を選択します。
 
 ![manual-replicate-9](./images/manual-replicate-9.png)
 
@@ -145,4 +145,30 @@ output "app_private_ip" {
 }
 ```
 
-あとは、Resource Manager にて適用（任意で計画も）を実行すれば OK です。
+修正したフォルダを Resource Manager のスタックに反映させます。OCI コンソール画面左上のハンバーガーメニューから、「開発者サービス」→「リソースマネージャ - スタック」を選択します。
+
+![terraform-replicate-1](./images/terraform-replicate-1.png)
+
+当クエスト環境を作成するときに用いたスタックを選択し、スタックの詳細画面を開きます。
+
+![terraform-replicate-2](./images/terraform-replicate-2.png)
+
+「編集」→「スタックの編集」を選択します。
+
+![terraform-replicate-3](./images/terraform-replicate-3.png)
+
+Terraform 構成ソースで「フォルダ」を選択し、修正を加えたコードのフォルダをアップロードし、変更を保存します。
+
+![terraform-replicate-4](./images/terraform-replicate-4.png)
+
+![terraform-replicate-5](./images/terraform-replicate-5.png)
+
+変更保存のスタックを用いて、再度「適用」をクリックし、リソースを作成します。
+
+![terraform-replicate-6](./images/terraform-replicate-6.png)
+
+適用後、ジョブの状態が「成功」であること、LB のバックエンドが二つ登録されていることが確認できれば OK です。
+
+![terraform-replicate-7](./images/terraform-replicate-7.png)
+
+![terraform-replicate-8](./images/terraform-replicate-8.png)
