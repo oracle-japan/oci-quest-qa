@@ -17,8 +17,7 @@
 8. ユーザ毎のログイン失敗を確認できる (ヒストグラム付きレコード)
     失敗したログイン（sso.session.create.failure）はフィールドの「IAM EventID」を利用します。
 
-![クラスタ分析と円グラフ](images/LA-Audit/LA-Audit2.png "クラスタ分析と円グラフ")
-![ログインの失敗と成功](images/LA-Audit/LA-Audit3.png "ログインの失敗と成功")
+![ダッシュボードの作成](images/LA-Audit/LA-Audit29.png "ダッシュボードの作成")
 
 ### アラート要件
 1. ログイン失敗が発生したらアラートをメールアドレスに通知する
