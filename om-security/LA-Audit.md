@@ -55,7 +55,7 @@
    ログ・エクスプローラから、フィールドのAction Typeからdeleteをチェックを入れて
    ![ダッシュボードの作成](images/LA-Audit/LA-Audit10.png)
    
-   グループ別にEventをドラック&ドロップします。
+   グループ化基準にEventをドラック&ドロップします。
    ![ダッシュボードの作成](images/LA-Audit/LA-Audit11.png)
    
    削除されたリソースが表示されるので、作成したダッシュボードに追加します。<br>
