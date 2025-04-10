@@ -59,6 +59,9 @@
    
    グループ化基準にEventをドラック&ドロップします。
    ![ダッシュボードの作成](images/LA-Audit/LA-Audit11.png)
+
+   ビジュアライゼーションメニューか円グラフを選択します。
+   ![ダッシュボードの作成](images/LA-Audit/LA-Audit30.png)
    
    削除されたリソースが表示されるので、作成したダッシュボードに追加します。<br>
    アクション→名前を付けて保存をクリックします。
@@ -73,7 +76,7 @@
    ![ダッシュボードの作成](images/LA-Audit/LA-Audit12.png)
    ![ダッシュボードの作成](images/LA-Audit/LA-Audit15.png)
 
-3. 異常な場所からログインが実施されていないことを確認できる (マップ)<br>
+4. 異常な場所からログインが実施されていないことを確認できる (マップ)<br>
    フィールドのIAM EventIDからsso.session.create.successにチェックを入れて適用をクリックします。
    ![ダッシュボードの作成](images/LA-Audit/LA-Audit16.png)
    ビジュアライゼーションメニューからマップを選択します。
@@ -94,7 +97,7 @@
    
    
 
-4. ユーザ毎のログイン成功を確認できる (ヒストグラム付きレコード)<br>
+5. ユーザ毎のログイン成功を確認できる (ヒストグラム付きレコード)<br>
    フィールドのIAM EventIDからsso.session.create.successにチェックを入れて適用をクリックします。
    ![ダッシュボードの作成](images/LA-Audit/LA-Audit16.png)
    
@@ -114,7 +117,7 @@
    ![ダッシュボードの作成](images/LA-Audit/LA-Audit22.png)
    ![ダッシュボードの作成](images/LA-Audit/LA-Audit23.png)
 
-5. ユーザ毎のログイン失敗を確認できる (ヒストグラム付きレコード)
+6. ユーザ毎のログイン失敗を確認できる (ヒストグラム付きレコード)
    フィールドのIAM EventIDからsso.session.create.successにチェックを入れて適用をクリックします。
    ![ダッシュボードの作成](images/LA-Audit/LA-Audit25.png)
    
