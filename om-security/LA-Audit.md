@@ -13,7 +13,9 @@
 4. 異常な場所からログインが実施されていないことを確認できる (マップ)
     - 成功したログイン（sso.session.create.success）はフィールドの「IAM EventID」を利用します。
 6. ユーザ毎のログイン成功を確認できる (ヒストグラム付きレコード)
-7. ユーザ毎のログイン失敗を確認できる (ヒストグラム付きレコード)
+   成功したログイン（sso.session.create.success）はフィールドの「IAM EventID」を利用します。
+8. ユーザ毎のログイン失敗を確認できる (ヒストグラム付きレコード)
+    失敗したログイン（sso.session.create.failure）はフィールドの「IAM EventID」を利用します。
 
 ![クラスタ分析と円グラフ](images/LA-Audit/LA-Audit2.png "クラスタ分析と円グラフ")
 ![ログインの失敗と成功](images/LA-Audit/LA-Audit3.png "ログインの失敗と成功")
@@ -53,7 +55,7 @@
    
 
 2. 削除されたリソースを確認できる（円グラフ）<br>
-   ログ・エクスプローラから、フィールドのAction Typeからdeleteにチェックを入れて
+   ログ・エクスプローラから、フィールドのAction 適用をクリックします。
    ![ダッシュボードの作成](images/LA-Audit/LA-Audit10.png)
    
    グループ化基準にEventをドラック&ドロップします。
