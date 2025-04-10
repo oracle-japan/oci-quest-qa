@@ -76,12 +76,13 @@
 
 3. 異常な場所からログインが実施されていないことを確認できる (マップ)
    フィールドのIAM EventIDからsso.session.create.successにチェックを入れて適用をクリックします。
-   ![ダッシュボードの作成](images/LA-Audit/LA-Audit17.png)
+   ![ダッシュボードの作成](images/LA-Audit/LA-Audit16.png)
    ビジュアライゼーションメニューからマップを選択します。
-   ![ダッシュボードの作成](images/LA-Audit/LA-Audit18.png)
+   ![ダッシュボードの作成](images/LA-Audit/LA-Audit17.png)
 
    削除されたリソースが表示されるので、作成したダッシュボードに追加します。<br>
    アクション→名前を付けて保存をクリックします。
+   ![ダッシュボードの作成](images/LA-Audit/LA-Audit18.png)
    
    要件1と同様に以下の項目を設定し、「保存」をクリックするとダッシュボードに追加されます。
     - 検索名：任意の検索名
