@@ -1,4 +1,4 @@
-# Logging AnalyticsでOCI Audit Logsを管理・分析してみよう！
+# Logging AnalyticsでOCI Audit Logsを管理・分析してみよう！ (所要時間：20分程度)
 
 
 ## 問題
