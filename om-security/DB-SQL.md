@@ -6,7 +6,7 @@ Aapplication Performance Monitoringからアプリケーションに接続して
 以下のDatabase Managemmentの機能を利用して、パフォーマンスを改善してください。
 
 利用する機能
- - パフォーマンス・ハブ
+ - パフォーマンス・ハブ<br>
    パフォーマンスの悪いSQLを見つけます。
    
  - SQLチューニング・アドバイザ
