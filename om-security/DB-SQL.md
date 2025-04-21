@@ -2,8 +2,8 @@
 
 
 ## 問題
-Aapplication Performance Monitoringからアプリケーションに接続しているデータベースのパフォーマンスが悪いことがわかりました。
-以下のDatabase Managemmentの機能を利用して、パフォーマンスを改善してください。
+Aapplication Performance Monitoringからアプリケーションに接続しているデータベースのSQLのパフォーマンスが悪いことがわかりました。
+以下のDatabase Managemmentの機能を利用して、SQLのパフォーマンスを改善してください。
 
 利用する機能
  - パフォーマンス・ハブ<br>
