@@ -2,7 +2,8 @@
 
 
 ## 問題
-Aapplication Performance Monitoringからアプリケーションに接続しているデータベースのSQLのパフォーマンスが悪いことがわかりました。
+Aapplication Performance Monitoringからアプリケーションのパフォーマンスがよくないことがわかりました。
+アプリケーションに接続しているデータベースのSQLのパフォーマンスがボトルネックになっている可能性があります。
 以下のDatabase Managemmentの機能を利用して、SQLのパフォーマンスを改善してください。
 
 利用する機能
