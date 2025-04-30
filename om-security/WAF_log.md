@@ -52,29 +52,49 @@ Webアプリケーションの脆弱性を狙ったサイバー攻撃への対�
 
 ![Wafの設定](images/WAF/WAF_Log06.png "Wafの設定")
 
-![Wafの設定](images/WAF/WAF07.png "Wafの設定")
+![Wafの設定](images/WAF/WAF_Log07.png "Wafの設定")
 
 - 「次」を押下し、「強制ポイントの選択」に関する情報を入力
 
-![Wafの設定](images/WAF/WAF08.png "Wafの設定")
+![Wafの設定](images/WAF/WAF_Log08.png "Wafの設定")
 
 - 「次」を押下し、「確認および作成」で設定内容を確認し、「WAFポリシーの作成」を選択
 
-![Wafの設定](images/WAF/WAF09.png "Wafの設定")
+![Wafの設定](images/WAF/WAF_Log09.png "Wafの設定")
 
 - 作成されたポリシーを選択し、正常に作成できていることを確認
 
-![Wafの設定](images/WAF/WAF10.png "Wafの設定")
+![Wafの設定](images/WAF/WAF_Log10.png "Wafの設定")
 
 
+![Wafの設定](images/WAF/WAF_Log11.png "Wafの設定")
 
 
+![Wafの設定](images/WAF/WAF_Log12.png "Wafの設定")
 
 
+![Wafの設定](images/WAF/WAF_Log13.png "Wafの設定")
 
 
+![Wafの設定](images/WAF/WAF_Log14.png "Wafの設定")
 
-  
+
+![Wafの設定](images/WAF/WAF_Log15.png "Wafの設定")
+
+
+![Wafの設定](images/WAF/WAF_Log16.png "Wafの設定")
+
+
+![Wafの設定](images/WAF/WAF_Log17.png "Wafの設定")
+
+
+![Wafの設定](images/WAF/WAF_Log18.png "Wafの設定")
+
+
+![Wafの設定](images/WAF/WAF_Log19.png "Wafの設定")
+
+
+![Wafの設定](images/WAF/WAF_Log20.png "Wafの設定")
 
 
 
