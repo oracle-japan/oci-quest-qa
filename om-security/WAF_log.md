@@ -1,5 +1,7 @@
 # Web Application FirewallのログをLogging Analyticsで分析できるようにしよう (所要時間：20分程度)
 # 問題
+Webアプリケーションの脆弱性を狙ったサイバー攻撃への対策としてWeb Application Firewallを構築しました。
+構築後、Web Application Firewallのログを確認し、
 
 
 実現したい要件
