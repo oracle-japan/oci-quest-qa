@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/f058d81f-27e6-4807-ac82-9d9cf2b1cb97)# SQLのパフォーマンス・チューニングをしてみよう！ (所要時間：20分程度)
+![image](https://github.com/user-attachments/assets/24fee1b8-0120-4454-a950-6eadc53c1103)# SQLのパフォーマンス・チューニングをしてみよう！ (所要時間：20分程度)
 
 
 ## 問題
@@ -34,18 +34,55 @@ GROUP BY
    - アドバイスされた内容を実装
 
 ## 解答
-監視および管理→データベース管理→診断と管理をクリックします。
+監視および管理→データベース管理→診断と管理をクリックします。<br>
 該当のATPをクリックします。
 ![](images/DB-SQL/DB-SQL00.png "")
 
 「パフォーマンス・ハブ」をクリックします。
 ![](images/DB-SQL/DB-SQL01.png "")
 
-ASH分析から該当のSQLをクリックし、「SQLのチューニング」をクリックします。
+ASH分析から該当のSQLをクリックします。
+「SQLのチューニング」をクリックします。
 ![](images/DB-SQL/DB-SQL02.png "")
 
-下記の情報を設定し、「実行」をクリック
-![image](https://github.com/user-attachments/assets/28252ae2-786e-48bb-b43e-72260eb241a1)
+下記の情報を設定し、「実行」をクリックします。
+ - 名前：任意の名前
+ - ソース：選択したSQL文
+ - 合計時間の制限：5分
+ - 分析の有効範囲：制限あり
+ - 資格証明：作成済みの資格証明
+
+![](images/DB-SQL/DB-SQL03.png "")
+![](images/DB-SQL/DB-SQL04.png "")
+![](images/DB-SQL/DB-SQL05.png "")
+
+完了するとDatabase ManagementのSQLチューニング・アドバイザに完了済みと表示されるので、該当のタスク名をクリックします。
+![](images/DB-SQL/DB-SQL06.png "")
+
+SQL結果をクリックします。<br>
+該当のSQLをクリックします。
+![](images/DB-SQL/DB-SQL07.png "")
+
+3点リーダーから「推奨事項を実装」をクリックします。
+![](images/DB-SQL/DB-SQL08.png "")
+
+下記の情報を設定し、「推奨事項を実装」をクリックします。
+ - 名前：任意の名前
+ - 新規索引表領域：デフォルト
+ - 資格証明：作成済みの資格証明
+ - ジョブ出力のバケット：作成済みのバケット
+
+![](images/DB-SQL/DB-SQL09.png "")
+![](images/DB-SQL/DB-SQL10.png "")
+![](images/DB-SQL/DB-SQL11.png "")
+
+推奨事項を実装が完了すると、ジョブに完了と表示されます。
+![](images/DB-SQL/DB-SQL12.png "")
+
+
+
+
+
 
 
 
