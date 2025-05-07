@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/24fee1b8-0120-4454-a950-6eadc53c1103)# SQLのパフォーマンス・チューニングをしてみよう！ (所要時間：20分程度)
+# SQLのパフォーマンス・チューニングをしてみよう！ (所要時間：20分程度)
 
 
 ## 問題
