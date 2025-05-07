@@ -1,4 +1,4 @@
-# SQLのパフォーマンス・チューニングをしてみよう！ (所要時間：20分程度)
+![image](https://github.com/user-attachments/assets/f058d81f-27e6-4807-ac82-9d9cf2b1cb97)# SQLのパフォーマンス・チューニングをしてみよう！ (所要時間：20分程度)
 
 
 ## 問題
@@ -34,8 +34,22 @@ GROUP BY
    - アドバイスされた内容を実装
 
 ## 解答
-Database Managementの「パフォーマンス・ハブ」をクリックします。
+監視および管理→データベース管理→診断と管理をクリックします。
+該当のATPをクリックします。
+![](images/DB-SQL/DB-SQL00.png "")
+
+「パフォーマンス・ハブ」をクリックします。
 ![](images/DB-SQL/DB-SQL01.png "")
+
+ASH分析から該当のSQLをクリックし、「SQLのチューニング」をクリックします。
+![](images/DB-SQL/DB-SQL02.png "")
+
+下記の情報を設定し、「実行」をクリック
+![image](https://github.com/user-attachments/assets/28252ae2-786e-48bb-b43e-72260eb241a1)
+
+
+
+
 
 
 
