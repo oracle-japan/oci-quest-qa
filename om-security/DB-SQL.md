@@ -35,6 +35,7 @@ GROUP BY
 
 ## 解答
 Database Managementの「パフォーマンス・ハブ」をクリックします。
+![](images/DB-SQL/DB-SQL01.png "")
 
 
 
