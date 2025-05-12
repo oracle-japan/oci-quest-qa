@@ -84,7 +84,7 @@
    ![ダッシュボードの作成](images/LA-Audit/LA-Audit15.png)
 
 5. 異常な場所からログインが実施されていないことを確認できる (マップ)<br>
-   フィールドの「IAM EventID」から「sso.session.create.success」にチェックを入れて適用をクリックします。
+   フィールドの「EventID」から「sso.session.create.success」にチェックを入れて適用をクリックします。
    
    ![ダッシュボードの作成](images/LA-Audit/LA-Audit16.png)
    
@@ -110,7 +110,7 @@
    
 
 7. ユーザ毎のログイン成功を確認できる (ヒストグラム付きレコード)<br>
-   フィールドの「IAM EventID」から「sso.session.create.success」にチェックを入れて適用をクリックします。
+   フィールドの「EventID」から「sso.session.create.success」にチェックを入れて適用をクリックします。
    
    ![ダッシュボードの作成](images/LA-Audit/LA-Audit16.png)
    
@@ -134,7 +134,7 @@
    ![ダッシュボードの作成](images/LA-Audit/LA-Audit23.png)
 
 9. ユーザ毎のログイン失敗を確認できる (ヒストグラム付きレコード)
-   フィールドの「IAM EventID」から「sso.session.create.success」にチェックを入れて適用をクリックします。
+   フィールドの「EventID」から「」にチェックを入れて適用をクリックします。
    
    ![ダッシュボードの作成](images/LA-Audit/LA-Audit25.png)
    
