@@ -11,11 +11,11 @@
     - 実行されたActionの内訳（create、update、Deleteなど）はフィールドの「ActionType」を利用します。
     - 削除されたリソースはフィールドの「Event」を利用します。
 4. 異常な場所からログインが実施されていないことを確認できる (マップ)<br>
-    - 成功したログイン（sso.session.create.success）はフィールドの「IAM EventID」を利用します。
+    - 成功したログイン（sso.session.create.success）はフィールドの「EventID」を利用します。
 6. ユーザ毎のログイン成功を確認できる (ヒストグラム付きレコード)<br>
-    - 成功したログイン（sso.session.create.success）はフィールドの「IAM EventID」を利用します。
+    - 成功したログイン（sso.session.create.success）はフィールドの「EventID」を利用します。
 8. ユーザ毎のログイン失敗を確認できる (ヒストグラム付きレコード)<br>
-     - 失敗したログイン（sso.session.create.failure）はフィールドの「IAM EventID」を利用します。
+     - 失敗したログイン（sso.session.create.failure）はフィールドの「EventID」を利用します。
 
 ![ダッシュボードの作成](images/LA-Audit/LA-Audit29.png "ダッシュボードの作成")
 
@@ -134,7 +134,7 @@
    ![ダッシュボードの作成](images/LA-Audit/LA-Audit23.png)
 
 9. ユーザ毎のログイン失敗を確認できる (ヒストグラム付きレコード)
-   フィールドの「EventID」から「」にチェックを入れて適用をクリックします。
+   フィールドの「EventID」から「sso.session.create.failure」にチェックを入れて適用をクリックします。
    
    ![ダッシュボードの作成](images/LA-Audit/LA-Audit25.png)
    
