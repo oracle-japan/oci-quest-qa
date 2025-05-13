@@ -15,7 +15,7 @@
 6. ユーザ毎のログイン成功を確認できる (ヒストグラム付きレコード)<br>
     - 成功したログイン（sso.session.create.success）はフィールドの「EventID」を利用します。
 8. ユーザ毎のログイン失敗を確認できる (ヒストグラム付きレコード)<br>
-     - 失敗したログイン（sso.session.create.failure）はフィールドの「EventID」を利用します。
+     - 失敗したログイン（sso.authentication.failure）はフィールドの「EventID」を利用します。
 
 ![ダッシュボードの作成](images/LA-Audit/LA-Audit29.png "ダッシュボードの作成")
 
