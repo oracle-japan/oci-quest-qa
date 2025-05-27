@@ -11,27 +11,7 @@
    - パフォーマンスが悪い以下のSQLを探索
 
 ```
-select * from (
-select q_.* , row_number() over (order by 1) RN___ from (
-SELECT 
-    CHANNEL_ID, 
-    PROD_ID, 
-    (SELECT SUM(AMOUNT_SOLD) 
-     FROM SHADMIN.SALES s2 
-     WHERE s2.PROD_ID = s.PROD_ID 
-     AND s2.TIME_ID BETWEEN TO_DATE('2010-01-01', 'YYYY-MM-DD') 
-     AND TO_DATE('2020-12-31', 'YYYY-MM-DD')
-    ) AS total_sales
-FROM 
-    SHADMIN.SALES s
-WHERE 
-    s.TIME_ID BETWEEN TO_DATE('2010-01-01', 'YYYY-MM-DD') 
-    AND TO_DATE('2020-12-31', 'YYYY-MM-DD')
-GROUP BY 
-    CHANNEL_ID, PROD_ID
-) q_
-) 
-where RN___ between :1 and :2 
+SELECT /*+ MONITOR */ COUNT(*) FROM ( SELECT CHANNEL_ID, PROD_ID, (SELECT SUM(AMOUNT_SOLD) FROM SHADMIN.SALES S2 WHERE S2.PROD_ID = S.PROD_ID AND S2.TIME_ID BETWEEN TO_DATE('2010-01-01', 'YYYY-MM-DD') AND TO_DATE('2020-12-31', 'YYYY-MM-DD') ) AS TOTAL_SALES FROM SHADMIN.SALES S WHERE S.TIME_ID BETWE...
 ```
    
  - SQLチューニング・アドバイザ
