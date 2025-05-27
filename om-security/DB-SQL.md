@@ -22,6 +22,9 @@ SELECT
      AND s2.TIME_ID BETWEEN TO_DATE('2010-01-01', 'YYYY-MM-DD') 
      AND TO_DATE('2020-12-31'...
 ```
+
+※上記のSQLが見つからない場合は、
+![](images/DB-SQL/DB-SQL000.png "")
    
  - SQLチューニング・アドバイザ
    - SQLパフォーマンスを改善するアドバイスを取得
