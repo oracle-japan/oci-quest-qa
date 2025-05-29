@@ -22,7 +22,13 @@ Webアプリケーションの脆弱性を狙ったサイバー攻撃により�
 
 ![Wafの設定](images/WAF/WAF02.png "Wafの設定") 
 
-- 「次」を押下し、「アクセス制御の有効化」にチェックをいれ、「アクセス制御」に関する情報を入力
+- 「次」を押下し、「アクセス制御の有効化」にチェックをいれ、「アクセス・ルールの追加」を選択
+-  下記、アクセス制御に関する情報を入力
+   - 名前 (任意の名称)
+   - Condition type (Country/Resionを選択)
+   - Operator (Not in listを選択)
+   - Countries (Japanを選択)
+   - アクション名 (Pre-configured 401 Response Code Actionを選択)
 
 ![Wafの設定](images/WAF/WAF03.png "Wafの設定") 
 
