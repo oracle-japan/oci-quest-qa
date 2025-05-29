@@ -90,7 +90,7 @@ OCI コンソール画面左上のハンバーガーメニューから、「コ�
 
 ```diff
 resource "oci_core_instance" "mushop_app_instance" {
-+  count = 2
++ count = 2
   availability_domain = local.ad
   compartment_id      = var.compartment_ocid
   display_name        = format("%s-mushop-app", var.team_name)
@@ -115,7 +115,35 @@ resource "oci_core_instance" "mushop_app_instance" {
     user_data           = data.cloudinit_config.mushop.rendered
   }
 }
+```diff
+resource "oci_core_instance" "mushop_bastion" {
++  count = 2
+  availability_domain = local.ad
+  compartment_id      = var.compartment_ocid
+  display_name        = format("%s-mushop-bastion", data.oci_identity_compartment.team_compartment.name)
+  shape               = local.shape
+  shape_config {
+    ocpus         = 1
+    memory_in_gbs = 6
+  }
+  source_details {
+    source_type = "image"
+    source_id   = local.image
+  }
+  create_vnic_details {
+    subnet_id        = local.lb_subnet.id
+    display_name     = "primaryvnic"
+    assign_public_ip = true
+-   hostname_label   = format("%s-mushop-bastion", data.oci_identity_compartment.team_compartment.name)
++   hostname_label   = format("%s-mushop-bastion-%s", data.oci_identity_compartment.team_compartment.name, count.index)
+    /* ↓↓↓　SLからNSGの変更に伴い追加 by Masataka Marukawa ↓↓↓ */
+    nsg_ids = [
+      local.bastion_nsg.id
+    ]
+    /* ↑↑↑ SLからNSGの変更に伴い追加 by Masataka Marukawa　↑↑↑ */
+  }
 ```
+
 
 `loadbalancer.tf`
 
