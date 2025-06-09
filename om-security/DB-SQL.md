@@ -18,7 +18,15 @@ SELECT
      FROM SHADMIN.SALES s2 
      WHERE s2.PROD_ID = s.PROD_ID 
      AND s2.TIME_ID BETWEEN TO_DATE('2010-01-01', 'YYYY-MM-DD') 
-     AND TO_DATE('2020-12-31'...
+     AND TO_DATE('2020-12-31', 'YYYY-MM-DD')
+    ) AS total_sales
+FROM 
+    SHADMIN.SALES s
+WHERE 
+    s.TIME_ID BETWEEN TO_DATE('2010-01-01', 'YYYY-MM-DD') 
+    AND TO_DATE('2020-12-31', 'YYYY-MM-DD')
+GROUP BY 
+    CHANNEL_ID, PROD_ID;
 ```
 
 
@@ -57,7 +65,24 @@ SELECT
 
 
 パフォーマンス・ハブから実行したSQLの実行計画が変わっていることを確認してください。
-
+```
+SELECT 
+    CHANNEL_ID, 
+    PROD_ID, 
+    (SELECT SUM(AMOUNT_SOLD) 
+     FROM SHADMIN.SALES s2 
+     WHERE s2.PROD_ID = s.PROD_ID 
+     AND s2.TIME_ID BETWEEN TO_DATE('2010-01-01', 'YYYY-MM-DD') 
+     AND TO_DATE('2020-12-31', 'YYYY-MM-DD')
+    ) AS total_sales
+FROM 
+    SHADMIN.SALES s
+WHERE 
+    s.TIME_ID BETWEEN TO_DATE('2010-01-01', 'YYYY-MM-DD') 
+    AND TO_DATE('2020-12-31', 'YYYY-MM-DD')
+GROUP BY 
+    CHANNEL_ID, PROD_ID;
+```
 
 
 ## 解答
