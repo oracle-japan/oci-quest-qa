@@ -15,10 +15,13 @@ Oracle Cloud Observability and ManagementのAPMの可用性モニタリングを
 
 
 # 解答
-- APM → 可用性モニタリング → リソースを選択
-  - 画面起動後、対象チームのAPMドメインを選択 → OCI_Quest_XX (XXはチーム番号)
+- 監視および管理 → アプリケーション・パフォーマンス・モニタリング →　管理を選択
 
-![モニターの作成](images/APM-monitor/APM_Monitor1.png "モニターの作成")
+ ![モニターの作成](images/APM-monitor/APM_Monitor9.png "モニターの作成")
+
+- 「APMドメインの作成」を押下し、「APMドメイン」に関する情報を入力
+
+ ![モニターの作成](images/APM-monitor/APM_Monitor10.png "モニターの作成")
 
 - 「モニターの作成」を押下し、「モニターの定義」に関する情報を入力
 
