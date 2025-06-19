@@ -154,26 +154,25 @@ SQLの実行計画を確認します。
 
 ### 3
 完了するとDatabase ManagementのSQLチューニング・アドバイザに完了済みと表示されるので、該当のタスク名をクリックします。
-![](images/DB-SQL/DB-SQL06.png "")
+![](images/DB-SQL/DB-SQL09.png "")
 
 SQL結果をクリックします。<br>
 該当のSQLをクリックします。
-![](images/DB-SQL/DB-SQL07.png "")
+![](images/DB-SQL/DB-SQL10.png "")
 
 3点リーダーから「推奨事項を実装」をクリックします。
-![](images/DB-SQL/DB-SQL08.png "")
+![](images/DB-SQL/DB-SQL11.png "")
 以下の情報を設定し、「推奨事項を実装」をクリックします。
  - 名前：任意の名前
  - 新規索引表領域：デフォルト
  - 資格証明：作成済みの資格証明
  - ジョブ出力のバケット：作成済みのバケット
 
-![](images/DB-SQL/DB-SQL09.png "")
-![](images/DB-SQL/DB-SQL10.png "")
-![](images/DB-SQL/DB-SQL11.png "")
+![](images/DB-SQL/DB-SQL12.png "")
+![](images/DB-SQL/DB-SQL13.png "")
 
 推奨事項を実装が完了すると、ジョブに完了と表示されます。
-![](images/DB-SQL/DB-SQL12.png "")
+![](images/DB-SQL/DB-SQL14.png "")
 
 ### 4
 ADBにログインし、SQLを実行します。
