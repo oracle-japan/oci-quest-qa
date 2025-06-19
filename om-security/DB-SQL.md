@@ -125,9 +125,21 @@ GROUP BY
 「パフォーマンス・ハブ」をクリックします。
 ![](images/DB-SQL/DB-SQL01.png "")
 
-ASH分析から該当のSQLをクリックします。
-「SQLのチューニング」をクリックします。
+### 1
+ASH分析から該当のSQLのSQL IDをクリックします。
 ![](images/DB-SQL/DB-SQL02.png "")
+
+SQL モニタリングをクリックします。
+該当のSQLのSQL IDをクリックします。
+![](images/DB-SQL/DB-SQL03.png "")
+SQLの実行計画を確認します。
+![](images/DB-SQL/DB-SQL04.png "")
+![](images/DB-SQL/DB-SQL05.png "")
+
+### 2
+「SQLのチューニング」をクリックします。
+
+![](images/DB-SQL/DB-SQL08.png "")
 
 以下の情報を設定し、「実行」をクリックします。
  - 名前：任意の名前
@@ -136,10 +148,11 @@ ASH分析から該当のSQLをクリックします。
  - 分析の有効範囲：制限あり
  - 資格証明：作成済みの資格証明
 
-![](images/DB-SQL/DB-SQL03.png "")
-![](images/DB-SQL/DB-SQL04.png "")
-![](images/DB-SQL/DB-SQL05.png "")
+![](images/DB-SQL/DB-SQL06.png "")
+![](images/DB-SQL/DB-SQL07.png "")
 
+
+### 3
 完了するとDatabase ManagementのSQLチューニング・アドバイザに完了済みと表示されるので、該当のタスク名をクリックします。
 ![](images/DB-SQL/DB-SQL06.png "")
 
@@ -162,8 +175,14 @@ SQL結果をクリックします。<br>
 推奨事項を実装が完了すると、ジョブに完了と表示されます。
 ![](images/DB-SQL/DB-SQL12.png "")
 
-SQLを実行します。
+### 4
+ADBにログインし、SQLを実行します。
 
+
+### 5
+設問3と同様にSQLモニタリングから実行計画が変更されていることを確認します。
+![](images/DB-SQL/DB-SQL18.png "")
+![](images/DB-SQL/DB-SQL19.png "")
 
 
 
