@@ -31,7 +31,7 @@ Webアプリケーションの脆弱性を狙ったサイバー攻撃により�
 - 「次」を押下し、「アクセス制御の有効化」をチェックし、「アクセス・ルールの追加」を選択後、アクセス制御に関する情報を入力
    - 名前 (任意の名称)
    - Condition type (Country/Resionを選択)
-   - Operator (Not in listを選択)
+   - Operator (in listを選択)
    - Countries (Japanを選択)
    - アクション名 (Pre-configured 401 Response Code Actionを選択)
 
