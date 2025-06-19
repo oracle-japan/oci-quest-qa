@@ -9,7 +9,8 @@ Database Managementのチューニング・アドバイザの機能を利用し�
 ### 1. パフォーマンス・ハブでパフォーマンスが悪い以下のSQLを見つけ、SQLモニタリングの画面で実行計画を確認します。
 
 ```パフォーマンスの悪い.sql
-/*+ MONITOR */
+select * from (
+select q_.* , row_number() over (order by 1) RN___ from (
 WITH filtered_sales AS (
     SELECT CHANNEL_ID, PROD_ID, TIME_ID, AMOUNT_SOLD
     FROM SHADMIN.SALES
@@ -37,7 +38,10 @@ FROM
 LEFT JOIN 
     total_sales_by_prod tsp ON fs.PROD_ID = tsp.PROD_ID
 GROUP BY 
-    fs.CHANNEL_ID, fs.PROD_ID, tsp.total_sales;
+    fs.CHANNEL_ID, fs.PROD_ID, tsp.total_sales
+) q_
+) 
+where RN___ between :1 and :2 
 ```
 
 
