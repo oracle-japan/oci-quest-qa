@@ -176,7 +176,8 @@ SQL結果をクリックします。<br>
 
 ### 4
 ADBにログインし、SQLを実行します。
-
+![](images/DB-SQL/DB-SQL15.png "")
+![](images/DB-SQL/DB-SQL17.png "")
 
 ### 5
 設問3と同様にSQLモニタリングから実行計画が変更されていることを確認します。
