@@ -89,7 +89,7 @@ OCI コンソール画面左上のハンバーガーメニューから、「コ�
 `compute.tf`
 
 ```diff
-resource "oci_core_instance" "mushop_bastion" {
+resource "oci_core_instance" "mushop_app_instance" {
 +  count = 2
   availability_domain = local.ad
   compartment_id      = var.compartment_ocid
@@ -107,8 +107,8 @@ resource "oci_core_instance" "mushop_bastion" {
     subnet_id        = local.lb_subnet.id
     display_name     = "primaryvnic"
     assign_public_ip = true
--   hostname_label   = format("%s-mushop-bastion", data.oci_identity_compartment.team_compartment.name)
-+   hostname_label   = format("%s-mushop-bastion-%s", data.oci_identity_compartment.team_compartment.name, count.index)
+-   hostname_label   = format("%s-mushop-app", data.oci_identity_compartment.team_compartment.name)
++   hostname_label   = format("%s-mushop-app-%s", data.oci_identity_compartment.team_compartment.name, count.index)
     /* ↓↓↓　SLからNSGの変更に伴い追加 by Masataka Marukawa ↓↓↓ */
     nsg_ids = [
       local.bastion_nsg.id
