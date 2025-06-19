@@ -125,7 +125,8 @@ GROUP BY
 「パフォーマンス・ハブ」をクリックします。
 ![](images/DB-SQL/DB-SQL01.png "")
 
-### 1
+### 1. パフォーマンス・ハブでパフォーマンスが悪い以下のSQLを見つけ、SQLモニタリングの画面で実行計画を確認します。
+
 ASH分析から該当のSQLのSQL IDをクリックします。
 ![](images/DB-SQL/DB-SQL02.png "")
 
@@ -136,7 +137,8 @@ SQLの実行計画を確認します。
 ![](images/DB-SQL/DB-SQL04.png "")
 ![](images/DB-SQL/DB-SQL05.png "")
 
-### 2
+### 2. ASH分析の画面でSQLチューニング・アドバイザを実行します。
+
 「SQLのチューニング」をクリックします。
 
 ![](images/DB-SQL/DB-SQL08.png "")
@@ -152,7 +154,8 @@ SQLの実行計画を確認します。
 ![](images/DB-SQL/DB-SQL07.png "")
 
 
-### 3
+3.チューニング・アドバイザを実行し、チューニング・アドバイザの画面で得られた推奨事項を実装します。
+
 完了するとDatabase ManagementのSQLチューニング・アドバイザに完了済みと表示されるので、該当のタスク名をクリックします。
 ![](images/DB-SQL/DB-SQL09.png "")
 
@@ -174,12 +177,14 @@ SQL結果をクリックします。<br>
 推奨事項を実装が完了すると、ジョブに完了と表示されます。
 ![](images/DB-SQL/DB-SQL14.png "")
 
-### 4
+### 4.ADBにログインし、SQLを再度実行します。
+
 ADBにログインし、SQLを実行します。
 ![](images/DB-SQL/DB-SQL15.png "")
 ![](images/DB-SQL/DB-SQL17.png "")
 
-### 5
+###  5.SQL モニタリングの画面でSQLの実行計画が変わっていることを確認します。
+
 設問3と同様にSQLモニタリングから実行計画が変更されていることを確認します。
 ![](images/DB-SQL/DB-SQL18.png "")
 ![](images/DB-SQL/DB-SQL19.png "")
