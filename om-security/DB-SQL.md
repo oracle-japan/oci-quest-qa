@@ -76,7 +76,7 @@ SQLはADBのデータベース・アクションから実行できます。
  - パスワード：Welcome12345##
 
 
-```
+``` 実行するSQL
 /*+ MONITOR */
 WITH filtered_sales AS (
     SELECT CHANNEL_ID, PROD_ID, TIME_ID, AMOUNT_SOLD
