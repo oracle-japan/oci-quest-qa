@@ -66,7 +66,7 @@
 
 ![Wafの設定](images/WAF/WAF_Log22.png "Wafの設定")
 
-- 「別のログ」を選択
+- 編集画面で「別のログ」を選択
 
 ![Wafの設定](images/WAF/WAF_Log23.png "Wafの設定")
 
@@ -81,7 +81,7 @@
 
 ![Wafの設定](images/WAF/WAF_Log16.png "Wafの設定")
 
-- ポリシーが作成されたことを確認
+- ポリシーが作成されたことを確認し、「変更の保存」を選択
 
 ![Wafの設定](images/WAF/WAF_Log17.png "Wafの設定")
 
