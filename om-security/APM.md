@@ -13,7 +13,6 @@ Oracle Cloud Observability and ManagementのAPMの可用性モニタリングを
 - 失敗時は、再実行できるように設定する
 
 設定時の条件について
-- APMドメインは、Always Freeドメインとして作成してください。
 - バンテージポイントは、日本以外を設定してください。
 
 設定後の確認
